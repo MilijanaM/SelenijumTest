@@ -1,0 +1,11 @@
+1. Otvoriti zip file
+2. Pronaci i kliknuti na folder newproject
+3. Kliknuti na src folder
+4. Kliknuti na newpackage
+5. Sada vidite tri skripte: AddComputer.java, SearhComputer.java,Title.java
+6. Otvorite u Eclipsu
+7. Rucno dodati trazene jar fileove, ici na desni klik na newproject>Build Path>Configure Build Path, u Classpath dodati seleniumjava-3.141.59.zip i selenium-server-standalone-3.141.59.jar i kliknuti na Apply and Close
+8. Desni klik na newproject, i ici na add Nwe Folder, i nazvati ga driver
+9. Prekopirati chromedriver.exe fajl i desni klik na driver folder i Paste
+10. U svakom od programa, putanju ka chromedriveru prilagoditi vasoj putani na kompjuteru
+11. Pokrenuti skripte, i proveritida li rade kako teba
