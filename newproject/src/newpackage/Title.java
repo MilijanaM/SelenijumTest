@@ -11,7 +11,7 @@ public class Title{
 	public static WebDriver driver=null;
 	public static void main(String[] args) throws InterruptedException{
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Milijana\\Desktop\\chromedriver_win32");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Milijana\\git\\SelenijumTest\\newproject\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		

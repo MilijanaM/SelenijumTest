@@ -1,4 +1,4 @@
-package newpackage2;
+package newpackage;
 
 import java.util.concurrent.TimeUnit;
 
@@ -8,10 +8,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SearchComputer{
 	
-	 public static void main(String[] args) 
-
+	public static WebDriver driver=null;
+	public static void main(String[] args) throws InterruptedException
+	
 	    {
-	    System.getProperty("webdriver.chrome.driver","C:\\Users\\Milijana\\git\\SelenijumTest\\Milijana2\\driver2\\chromedriver.exe");   
+	    System.getProperty("webdriver.chrome.driver","C:\\Users\\Milijana\\git\\SelenijumTest\\newproject\\driver\\chromedriver.exe");   
 	    WebDriver driver= new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	    
